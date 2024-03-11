@@ -303,7 +303,17 @@
     }
 
 }
-
+@media only screen and (max-width: 1024px) and (min-width: 768px) {
+    .grid-cols-5 {
+        grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+    }
+}
+ 
+@media only screen and (max-width: 767px) and (min-width: 321px) {
+    .grid-cols-5 {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    }
+}
 nav {
 
     opacity: 1;

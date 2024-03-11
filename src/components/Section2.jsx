@@ -865,7 +865,7 @@ const Section2 = () => {
             </Container>
             <Container className="pt-5 pb-5 section2-container justify-content-center">
                 <Row>
-                    <Col className="col-9 m-auto mb-3">
+                    <Col className="col-md-12 m-auto mb-3">
                         <div className="flex flex-col items-center">
                             <section className="grid grid-cols-5 row-gap-2 w-100 section2-tab">
                                 {buttonData.map((button, index) => (
@@ -873,7 +873,7 @@ const Section2 = () => {
                                         key={index}
                                         onClick={() => setActiveButton(index)}
                                         className={
-                                            `section2-tab-button mb-2 ${
+                                            `section2-tab-button ${
                                                 activeButton === index ? "active" : ""
                                             }`
                                         }

@@ -60,26 +60,31 @@ const Footer = () => {
                 <Row className="mt-4 pb-4">
                 <Col className="col-lg-1 col-sm-2 social-x">
                 <a href="https://twitter.com/cgbqatar"><img src={x}></img></a> 
+                {/* Jaafar Altaie. Code modified 11/03/2024 */}
                     {/* <img src={x}></img> */}
                   </Col>
                   <Col className="col-lg-1 col-sm-2 social-insta">
                   <a href="https://instagram.com/cgbqatar"><img src={insta}></img></a> 
+                  {/* Jaafar Altaie. Code modified 11/03/2024 */}
                     {/* <img src={insta}></img> */}
                   </Col>
 
                   <Col className="col-lg-1 col-sm-2 social-snapchat">
                   <a href="https://www.snapchat.com/add/cgbqatar"><img src={snapchat}></img></a> 
+                  {/* Jaafar Altaie. Code modified 11/03/2024 */}
                     {/* <img src={snapchat}></img> */}
 
                   </Col>
 
                   <Col className="col-lg-1 col-sm-2 social-youtube">
                   <a href="https://www.youtube.com/@cgbqatar"><img src={youtube}></img></a> 
+                  {/* Jaafar Altaie. Code modified 11/03/2024 */}
                     {/* <img src={youtube}></img> */}
                   </Col>
       
                   <Col className="col-lg-1 col-sm-2 social-linked">
                   <a href="https://twitter.com/cgbqatar"><img src={linked}></img></a> 
+                  {/* Jaafar Altaie. Code modified 11/03/2024 */}
                     {/* <img src={linked}></img> */}
                   </Col>
      
