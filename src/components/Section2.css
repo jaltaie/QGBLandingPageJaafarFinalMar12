@@ -1,0 +1,195 @@
+.section2-bg {
+    position: relative;
+
+}
+
+.section2-bg .section2-right-boxes {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    z-index: 0;
+}
+
+.section2-bg .section2-left-boxes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    z-index: 0;
+}
+
+
+.section2-header {
+    /*height: 372px;*/
+}
+
+.section2-header .section2-header-title {
+    font-size: 38px;
+    font-family: 'Lusail Bold', serif;
+}
+
+.section2-tab {
+    z-index: 100;
+}
+
+.section2-tab-button {
+    border: 1px solid #ebebeb;
+    height: 50px;
+    font-size: 17px;
+   
+}
+
+.section2-tab-button.active {
+    border: 1px solid #ebebeb;
+    height: 50px;
+    font-size: 17px;
+    background: rgb(2, 164, 136);
+    background: linear-gradient(192deg, rgba(2, 164, 136, 1) 0%, rgba(3, 99, 83, 1) 100%);
+    color: #ffffff;
+}
+
+.section2-tab-button:hover {
+    border: 1px solid #ebebeb;
+    height: 50px;
+    font-size: 17px;
+    background: rgb(2, 164, 136);
+    background: linear-gradient(192deg, rgba(2, 164, 136, 1) 0%, rgba(3, 99, 83, 1) 100%);
+    color: #ffffff;
+}
+
+.section2-container .slick-slide>div {
+    margin: 35px 16px;
+}
+
+.section2-container .section2-card {
+    z-index: 101;
+}
+
+.section2-container .section2-card:hover {
+    background-color: #06a388;
+    color: #ffffff;
+}
+
+.section2-container .section2-card img {
+    height: 400px;
+
+    width: 100%;
+}
+
+.section2-container .section2-card {
+    height: 610px;
+}
+
+.section2-container .section2-card .card-title {
+    font-size: 16px;
+    font-family: 'Lusail Bold', serif;
+}
+
+.section2-container .section2-card .card-text {
+    font-size: 14px;
+    font-family: 'Lusail Regular', serif;
+}
+
+.section2-container a {
+    text-decoration: none !important;
+}
+
+.section2-container .section2-card .card-footer {
+    background-color: transparent;
+    border-top: none;
+}
+
+.section2-container .section2-card .card-footer button {
+    color: #59BCAA;
+}
+
+.section2-container .section2-card:hover .card-footer button {
+    color: #ffffff;
+}
+
+.section2-container .section2-card .card-footer img {
+    height: 15px;
+    max-width: 105px;
+}
+
+.section2-container .slick-next:before,
+.section2-container .slick-prev:before {
+    display: inline-block;
+    font-family: "Ionicons", serif;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.section2-container .slick-next:before {
+    content: '\f3d2';
+    color: #ffffff;
+}
+
+.section2-container .slick-next:hover:before {
+    content: '\f3d2';
+    color: #ffffff;
+}
+
+.section2-container .slick-prev:before {
+    content: '\f3d3';
+    color: #ffffff;
+}
+
+.section2-container .slick-prev:hover:before {
+    content: '\f3d3';
+    color: #ffffff;
+}
+
+.section2-container .slick-next {
+    left: 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    z-index: 9;
+    background: rgb(2, 164, 136);
+    background: linear-gradient(295deg, rgba(2, 164, 136, 1) 0%, rgba(3, 99, 83, 1) 100%);
+}
+
+.section2-container .slick-prev {
+    right: 0px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #ffffff;
+    color: #636363;
+    z-index: 9;
+    background: rgb(2, 164, 136);
+    background: linear-gradient(295deg, rgba(2, 164, 136, 1) 0%, rgba(3, 99, 83, 1) 100%);
+}
+
+.section2-container .slick-next:hover,
+.section2-container .slick-prev:hover {
+    border: 1px solid #06a388;
+    background-color: #06a388;
+}
+
+.section2-container .slick-next.slick-disabled:hover,
+.section2-container .slick-prev.slick-disabled:hover {
+    border: 1px solid #676767;
+    background-color: transparent;
+}
+
+.section2-container .slick-next.slick-disabled,
+.section2-container .slick-prev.slick-disabled {
+    opacity: .25;
+}
+
+.section2-container .slick-next.slick-disabled:before,
+.section2-container .slick-prev.slick-disabled:before {
+    opacity: 1;
+}

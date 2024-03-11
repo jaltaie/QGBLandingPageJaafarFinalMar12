@@ -1,0 +1,119 @@
+.footer__bg {
+  min-height: 237px;
+  width: 100%;
+  background-color: #49b19a;
+  color: #ffffff;
+}
+
+.footer-top-section {
+  min-height: 237px;
+}
+
+.footer-copyrights {
+  color: #a2cbc0;
+  font-family: "Lusail Regular", serif;
+  font-size: 14px;
+  height: 60px;
+}
+
+.footer-title {
+  color: #d2e7e0;
+  font-family: "Lusail Medium", serif;
+  font-size: 28px;
+}
+
+.footer-title-1>div {
+  width: 22%;
+  height: 3px;
+  border-bottom: 3px solid #ffffff;
+}
+
+.footer-title-2>div {
+  width: 16%;
+  height: 3px;
+  border-bottom: 3px solid #ffffff;
+}
+
+.footer-contacts {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-phone,
+.footer-email,
+.footer-mobile,
+.footer-address {
+  position: relative;
+  font-family: "Lusail Medium", serif;
+  font-size: 19px;
+}
+
+.footer-phone>img {
+  position: absolute;
+  top: -10px;
+  right: -24px;
+  width: 26px;
+  height: 32px;
+}
+
+.footer-email>img {
+  position: absolute;
+  top: 0;
+  right: -22px;
+  width: 24px;
+  height: 16px;
+}
+
+.footer-mobile>img {
+  position: absolute;
+  top: -3px;
+  right: -17px;
+  width: 16px;
+  height: 24px;
+}
+
+.social-youtube>img {
+  width: 25px;
+  height: 17px;
+  cursor: pointer;
+}
+
+.social-facebook>img {
+  width: 11px;
+  height: 21px;
+  cursor: pointer;
+}
+
+.social-google>img {
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+}
+
+.social-x>img {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.social-insta>img {
+  width: 21px;
+  height: 21px;
+  cursor: pointer;
+}
+
+.social-behance>img {
+  width: 25px;
+  height: 15px;
+  cursor: pointer;
+}
+
+.btn_up {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  z-index: 9999;
+  width: 70px;
+  height: 70px;
+}

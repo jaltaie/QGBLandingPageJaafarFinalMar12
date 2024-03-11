@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Lusail Bold';
+  src: local('Lusail Bold'), url('./fonts/Lusail-Bold.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lusail Light';
+  src: local('Lusail Light'), url('./fonts/Lusail-Light.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lusail Medium';
+  src: local('Lusail Medium'), url('./fonts/Lusail-Medium.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lusail Regular';
+  src: local('Lusail Regular'), url('./fonts/Lusail-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ionicons";
+  src: url("./fonts/ionicons.eot?v=2.0.0");
+  src: url("./fonts/ionicons.eot?v=2.0.0#iefix") format("embedded-opentype"), url("./fonts/ionicons.ttf?v=2.0.0") format("truetype"), url("./fonts/ionicons.woff?v=2.0.0") format("woff"), url("./fonts/ionicons.svg?v=2.0.0#Ionicons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: 'Lusail Regular', sans-serif;
+}

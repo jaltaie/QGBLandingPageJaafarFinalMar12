@@ -1,0 +1,88 @@
+.section3-bg {
+    position: relative;
+
+    padding: 100px 0 100px 0;
+
+}
+
+.section3-bg .section3-right-boxes {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 866px;
+    z-index: 1;
+    display: none;
+}
+
+.section3-bg .section3-left-boxes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1135px;
+    z-index: 0;
+
+}
+
+.section3-bg .section3-container {}
+
+.section3-container .section3-card {
+    z-index: 101;
+}
+
+.section3-container .section3-card:hover {
+    background-color: #06a388;
+    color: #ffffff;
+}
+
+.section3-container .section3-card>img {
+
+    width: 100%;
+    margin: 0px;
+    border-radius: 5px;
+}
+
+.section3-container .section3-card {
+    height: 600px;
+    width: 100%;
+}
+
+.section3-container .section3-card a {
+    height: 420px;
+    width: 280px;
+}
+
+.section3-container>.row>.col {
+    /*padding-right: 6rem;*/
+}
+
+.section3-container .section3-card .card-title {
+    font-size: 14px;
+    font-family: 'Lusail Bold', serif;
+}
+
+.section3-container .section3-card .card-text {
+
+    font-family: 'Lusail Regular', serif;
+}
+
+.section3-container a {
+    text-decoration: none !important;
+}
+
+.section3-container .section3-card .card-footer {
+    background-color: transparent;
+    border-top: none;
+}
+
+.section3-container .section3-card .card-footer button {
+    color: #59BCAA;
+}
+
+.section3-container .section3-card:hover .card-footer button {
+    color: #ffffff;
+}
+
+.section3-container .section3-card .card-footer img {
+    height: 15px;
+    max-width: 105px;
+}

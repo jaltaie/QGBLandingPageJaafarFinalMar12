@@ -1,0 +1,80 @@
+.section4-bg {
+    position: relative;
+}
+
+.section4-bg .section4-container {
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+
+.section4-container .section4-card:hover {
+    background-color: #06a388;
+    color: #ffffff;
+}
+
+.imageHolder {
+ 
+    overflow: hidden;
+}
+
+.imageHolder img {}
+
+.section4-container .section4-card>img {
+
+}
+
+.section4-container .section4-card {
+    height: 650px;
+    margin: auto;
+}
+
+.section4-container .section4-card a {
+    height: 332px;
+}
+
+.section4-container .section4-card .card-title {
+    font-size: 14px;
+    font-family: 'Lusail Bold', serif;
+}
+
+.section4-container .section4-card .card-text {
+
+    font-family: 'Lusail Regular', serif;
+}
+
+.section4-container a {
+    text-decoration: none !important;
+}
+
+.section4-container .section4-card .card-footer {
+    background-color: transparent;
+    border-top: none;
+}
+
+.section4-container .section4-card .card-footer button {
+    color: #59BCAA;
+}
+
+.section4-container .section4-card:hover .card-footer button {
+    color: #ffffff;
+}
+
+.section4-container .section4-card .card-footer img {
+    height: 15px;
+    max-width: 105px;
+}
+
+.section4-container .section4-middle-card {
+    border: none;
+}
+
+.section4-container .section4-middle-card .card-body {
+    height: auto;
+    border: 1px solid #49b19a;
+    font-size: 36px;
+    font-family: 'Lusail Bold', serif;
+}
+
+.mt25 {
+    margin-top: 25px !important;
+}

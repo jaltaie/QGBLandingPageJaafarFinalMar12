@@ -1,0 +1,84 @@
+.page {
+    background-color: #ffffff;
+}
+
+@media (min-width: 1920px) {
+    .internal-page {
+        max-width: 1935px;
+        margin: 0 auto;
+    }
+}
+
+.bg {
+    width: 100%;
+    background-image: url("../src/images/banner.png");
+    background-position:  bottom center;
+    background-repeat: repeat-x;
+    background-size: auto;
+}
+
+.header {
+    width: 100%;
+}
+
+.header .left-logo {
+    max-height: 72px;
+    max-width: 220px;
+}
+
+.header .right-logo {
+    max-height: 72px;
+    max-width: 420px;
+}
+
+.banner-bg .row {
+}
+
+.banner {
+    height: 550px;
+}
+
+.banner .banner-img {
+    max-height: 600px;
+    width: 100%;
+}
+
+.banner .logo {
+    max-height: 300px;
+    margin-top: 5rem !important;
+}
+
+.banner-rectangle {
+    height: 12px;
+    background-color: #ebeced;
+}
+
+.banner-menu {
+    position: relative;
+}
+
+.banner-menu>.menu {
+    position: absolute;
+    top: 0;
+    width: 900px;
+    left: auto;
+    right: auto;
+    z-index: 1000;
+}
+
+.banner-menu>.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Lusail Bold", serif;
+    font-size: 24px;
+}
+.banner-menu>.menu a:last-child {
+   text-align: right;
+}
+
+.banner-menu>.menu a:hover {
+    text-decoration: none;
+    color: #cdece7;
+    font-family: "Lusail Bold", serif;
+    font-size: 24px;
+}

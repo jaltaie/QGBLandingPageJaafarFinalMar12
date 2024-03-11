@@ -1,0 +1,56 @@
+.c__bg__img {
+  background-image: url("https://jaltaie.github.io/qcsd4/images/bg_texture2.png");
+  background-position: bottom;
+}
+
+.course__box {
+  min-height: 100px;
+  position: relative;
+  width: 317px;
+  -webkit-border-radius: 5.2px;
+  -moz-border-radius: 5.2px;
+  border-radius: 5.2px;
+  border: 1px solid #eef0ef;
+  background: #ffffff;
+}
+
+.border__bottom {
+  height: 1px;
+  margin: 10px 0 0;
+  width: 330px;
+  background: #eef0ef;
+}
+
+.box__shadow {
+  box-shadow: 19.79899px 19.79899px 60px 0 rgba(0, 0, 0, 0.1);
+}
+
+.news_02 {
+  left: 50%;
+  min-height: max-content;
+  position: absolute;
+  top: 297px;
+  width: 370px;
+  border: 1px solid #eef0ef;
+  background: #ffffff;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin-left: -188px;
+}
+
+@media only screen and (max-width: 600px) {
+    .news_02 {
+        left: 50%;
+        min-height: max-content;
+        position: absolute;
+        top: 297px;
+        width: 100px;
+        border: 1px solid #eef0ef;
+        background: #ffffff;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        margin-left: -188px;
+      }
+  }

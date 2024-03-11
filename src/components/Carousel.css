@@ -1,0 +1,393 @@
+/*!*.slider_bg {*!*/
+/*!*  min-height: 714px;*!*/
+/*!*  padding: 83px 75px;*!*/
+/*!*  position: relative;*!*/
+/*!*  width: 100%;*!*/
+/*!*  background: url("https://jaltaie.github.io/qcsd4/images/photo.jpg") no-repeat;*!*/
+/*!*  background-size: 100% 100%;*!*/
+/*!*}*!*/
+
+/*!*.col__slide {*!*/
+/*!*  width: 11.11111111111%;*!*/
+/*!*  margin: 0 auto;*!*/
+/*!*  min-height: max-content;*!*/
+/*!*  padding: 13px 14px 48px;*!*/
+/*!*  position: relative;*!*/
+/*!*  border: 1px solid rgba(255, 255, 255, 0.45);*!*/
+/*!*  -webkit-border-radius: 5px;*!*/
+/*!*  -moz-border-radius: 5px;*!*/
+/*!*  border-radius: 5px;*!*/
+/*!*  !* background: rgba(0, 0, 0, 0.67); *!*!*/
+/*!*  -moz-background-clip: padding;*!*/
+/*!*  -webkit-background-clip: padding-box;*!*/
+/*!*  background-clip: padding-box;*!*/
+/*!*}*!*/
+
+.bFont {
+    font-weight: bold;
+}
+
+.slider-bg {
+    position: relative;
+}
+
+.slider-header {
+    width: 84% !important;
+    padding-top: 3rem;
+    padding-left: 8rem !important;
+    padding-right: 8rem !important;
+}
+
+.slider-header h1 {
+    font-size: 2.5rem;
+    font-family: 'Lusail Bold', serif;
+}
+
+.slider-header p {
+    font-family: 'Lusail Light', serif;
+    font-weight: normal;
+}
+
+.slider-container .slider-card {
+    height: 300px !important;
+    padding: 10px;
+    color: #2d2c2c !important;
+    background-color: #b6b3b3 !important;
+    border: 1px solid #dcdcdc;
+    position: relative;
+}
+
+.slider-container {
+    position: relative;
+}
+
+.slider-container .hr-line {
+    position: absolute;
+    width: 97%;
+    top: 10px;
+    -moz-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    height: 1px;
+    border-bottom: 1px solid #505050;
+}
+
+.slider-container .slider-card .triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 6.5px 7px 6.5px;
+    border-color: transparent transparent #939393 transparent;
+    transform: rotate(0deg);
+    position: absolute;
+    top: -10px;
+    z-index: 1000000;
+    left: calc(50% - 6.5px)
+}
+
+.slider-container .slider-card img {
+    max-height: 140px !important;
+}
+
+.slider-container .slider-card .dot {
+    position: absolute;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #505050;
+    border-radius: 10px;
+    background-color: #ffffff;
+    top: -35px;
+    left: calc(50% - 10px);
+}
+
+.slider-container .slick-current .slider-card .dot .selected-dot {
+    width: 8px;
+    height: 8px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: #7fc0af;
+}
+
+.slider-container .slick-slide>div {
+    margin: 35px 5px;
+}
+
+.slider-container .slick-current .slider-card {
+    background-color: #7e7c7c !important;
+    color: #ebeced !important;
+}
+
+.slider-container .slick-prev {
+    top: 10px !important;
+    z-index: 9999;
+    left: 0 !important;
+    width: 60px !important;
+    height: 28px !important;
+    border: 2px solid #505050 !important;
+    border-radius: 14px;
+    background-color: #ffffff;
+}
+
+[dir='rtl'] .slick-slide {
+    float: left;
+}
+
+[dir='rtl'] .slider-container .slick-prev {
+    top: 10px !important;
+    z-index: 9999;
+    right: 0 !important;
+    left: auto !important;
+    width: 60px !important;
+    height: 28px !important;
+    border: 2px solid #505050 !important;
+    border-radius: 14px;
+    background-color: #06a388;
+    text-align: center;
+    font-weight: bold;
+}
+
+.slider-container .slick-next {
+    top: 10px !important;
+    z-index: 9999;
+    right: 0 !important;
+    width: 60px !important;
+    height: 28px !important;
+    border: 2px solid #505050 !important;
+    border-radius: 14px;
+    background-color: #06a388;
+    
+}
+
+[dir='rtl'] .slider-container .slick-next {
+    top: 10px !important;
+    z-index: 9999;
+    left: 0 !important;
+    right: auto !important;
+    width: 60px !important;
+    height: 28px !important;
+    border: 2px solid #505050 !important;
+    border-radius: 14px;
+    background-color: #06a388;
+    text-align: center;
+    font-weight: bold;
+}
+
+.slider-container .slick-prev:hover,
+.slider-container .slick-prev:active,
+.slider-container .slick-prev:focus {
+    background-color: #06a388;
+}
+
+.slider-container .slick-next:hover,
+.slider-container .slick-next:active,
+.slider-container .slick-next:focus {
+    background-color: #06a388;
+}
+
+
+.slider-container .slick-next:before {
+    content: '<<' !important;
+}
+
+
+.slider-container .slick-prev:before {
+    content: '>>' !important;
+}
+
+.slider-container .slider-card .card-title a {
+    color: #2d2c2c;
+    font-family: 'Lusail Bold', serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.slider-container .slick-current .slider-card .card-title a {
+    color: #ebeced;
+    font-family: 'Lusail Bold', serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.slider-container .slider-card .card-text {
+    color: #2d2c2c;
+    font-family: 'Lusail Regular', serif;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.slider-container .slick-current .slider-card .card-text {
+    color: #ebeced;
+    font-family: 'Lusail Regular', serif;
+    font-size: 12px;
+}
+
+.slider-container .slider-card .card-body {
+    height: calc(300px - 128px - 10px);
+}
+
+.slider-bg .section-right-boxes {
+    position: absolute;
+    bottom: 0;
+    /*right: calc(-2rem - 3px);*/
+    right: 0;
+    height: 100%;
+}
+
+
+
+@media only screen and (max-width: 1024px) and (min-width: 320px) {
+    .banner-menu>.menu a:last-child {
+        text-align: center !important;
+    }
+    .slider-header {
+        width: 90% !important;
+        padding-top: 3rem;
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+    }
+
+    .btn_up {
+        position: fixed !important;
+        right: 10px !important;
+        bottom: 10px !important;
+        z-index: 9999;
+        width: 70px !important;
+        height: 70px !important;
+    }
+
+    .section4-bg .section4-container {
+        padding-left: 0rem !important;
+        padding-right: 0rem !important;
+    }
+
+    .thisIsNotImportantForMobile {
+        display: none !important;
+    }
+
+    .section4-container .section4-card>img {
+        height: auto !important;
+    }
+
+    .section4-container .section4-card {
+        height: auto !important;
+        margin: 20px !important;
+    }
+
+    .mobileLogoCenter {
+        text-align: center;
+    }
+
+    .mobileLogoCenter img {
+        margin: auto;
+        width: 220px !important;
+    }
+
+    .section3-container .section3-card>img {
+        height: auto !important;
+    }
+
+    .section3-container .section3-card {
+        height: auto !important;
+
+    }
+
+    .section5-container .section5-card>img {
+        height: auto !important;
+    }
+
+    .section5-container .section5-card {
+        height: auto !important;
+
+    }
+
+}
+
+nav {
+
+    opacity: 1;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    padding: .25rem
+}
+
+.nav-links a:hover {
+    color: white;
+}
+
+.hidden-nav {
+    display: none;
+}
+
+#menu-toggle,
+.hamburger {
+    display: none;
+}
+
+/* Flexbox styling */
+
+/* body {
+  display: flex;
+  flex-direction: column;
+} */
+
+.nav-links {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.nav-links a {
+    flex: 1 0;
+    text-align: center;
+}
+
+/* Media queries */
+
+@media screen and (max-width: 768px) {
+
+    .hidden-nav {
+        display: flex;
+        align-items: center;
+        padding: .5rem;
+        height: 2.5rem;
+        background: lightgrey;
+    }
+
+    nav {
+        padding: .5rem .5rem .0rem .5rem;
+        background: rgb(255, 255, 255);
+        position: fixed;
+        flex: 1;
+        top: 30px;
+        right: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        flex-direction: column;
+        border: 1px solid #02a488;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hamburger {
+        display: flex;
+        font-size: 32px;
+    }
+
+    /*   when hamburger icon is checked, nav links will pop out */
+
+    #menu-toggle:checked~.nav-links {
+        display: flex;
+        flex-direction: column;
+
+        margin-bottom: 10px;
+        background-color: #02a488;
+
+    }
+}
